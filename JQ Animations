@@ -23,7 +23,25 @@ $("button").addClass("animated bounce");
   });
 </script>
 
-<!-- JQuery above this line. Buttons below. -->
+<!-- "#target3" id elements will fadeout -->
+
+<script>
+  $(document).ready(function() {
+    $("#target3").addClass("animated fadeout");
+  });
+</script>
+
+<!-- You can target multiple items/elements in the same function script -->
+
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+    $("#target3").addClass("animated fadeout");
+  });
+</script>
+
+<!-- JQuery above this line. HTML/Bootstrap below. -->
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
