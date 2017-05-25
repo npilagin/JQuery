@@ -1,6 +1,16 @@
+<!-- "Button" elements will bounce -->
+
 <script>
   $(document).ready(function() {
 $("button").addClass("animated bounce");
+  });
+</script>
+
+<!-- ".well" class elements will shake -->
+
+<script>
+  $(document).ready(function() {
+    $(".well").addClass("animated shake");
   });
 </script>
 
