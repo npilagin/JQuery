@@ -1,0 +1,59 @@
+/* CHANGE THE CSS OF AN ELEMENT w/ .css("", "") */
+
+<script>
+  $(document).ready(function() {
+    $("button").css("color", "red");
+  });
+</script>
+
+
+/* REMOVE A CLASS FROM AN ELEMENT w/ .removeClass("") */
+
+<script>
+  $(document).ready(function() {
+    $("button").removeClass("btn-default");
+  });
+</script>
+
+
+/* DISABLE AN ELEMENT w/ .prop("", "") */
+
+<script>
+  $(document).ready(function() {
+    $("#target1").prop("disabled", "true");
+  });
+</script>
+
+
+/* REPLACE HTML CONTENT w/ .html("") */
+/* emphasize the text of an h3 element */
+
+<script>
+  $(document).ready(function() {
+    $("h3").html("<em>TXT TXT<em>");
+  });
+</script>
+
+
+/*REMOVE AN HTML ELEMENT w/ .remove() */
+/* remove the element with id target4 */
+
+<script>
+  $(document).ready(function() {
+    $("#target4").remove();
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
