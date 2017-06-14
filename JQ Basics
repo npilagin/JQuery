@@ -36,7 +36,7 @@
 
 
 /*REMOVE AN HTML ELEMENT w/ .remove() */
-/* remove the element with id target4 */
+  /* remove the element with id target4 */
 
 <script>
   $(document).ready(function() {
@@ -45,7 +45,23 @@
 </script>
 
 
+/* APPEND/MOVE AN HTML ELEMENT TO ANOTHER ELEMENT w/ .appendTo() */
+  /* move #target2 element to the #right-well div */
 
+<script>
+  $(document).ready(function() {
+    $("#target2").appendTo("#right-well");
+  });
+</script>
+
+/* COPY/CLONE AN ELEMENT to a new place*/
+  /* FUNCTION CHAINING= putting 2 Functions together */
+
+<script>
+  $(document).ready(function() {
+    $("#target5").clone().appendTo("#left-well");
+  });
+</script>
 
 
 
