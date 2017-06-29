@@ -2,6 +2,10 @@
 
 <script type="text/javascript" src="js/jquery.js" </script>
 
+/* Or this */
+
+<script type="text/javascript" src="jquery.js" </script>
+
 /* Place this script in a separate notepad tab called "jquery.js" */
 
 /*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
