@@ -63,6 +63,14 @@
   });
 </script>
 
+/* CHANGE THE PARENT OF AN ELEMENT w/ .parent() */
+
+<script>
+  $(document).ready(function() {
+    $("#target1").parent().css("background-color", "red")
+  });
+</script>
+
 
 
 <!-- JQuery above this line. HTML/Bootstrap below. -->
