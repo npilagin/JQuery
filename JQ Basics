@@ -71,6 +71,13 @@
   });
 </script>
 
+/* CHANGE THE CHILDREN OF AN ELEMENT w/ .children() */
+
+<script>
+  $(document).ready(function() {
+    $("#left-well").children().css("color", "orange");
+  });
+</script>
 
 
 <!-- JQuery above this line. HTML/Bootstrap below. -->
