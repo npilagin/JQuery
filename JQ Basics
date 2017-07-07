@@ -79,6 +79,31 @@
   });
 </script>
 
+/* TARGET A SPECIFIC CHILD OF AN ELEMENT w/ :nth-child() */
+
+<script>
+  $(document).ready(function() {
+    $(".target:nth-child(2)").addClass("animated bounce");
+  });
+</script>
+
+/* TARGET ONLY THE ODD/EVEN ELEMENTS WITHIN A CERTAIN CLASS/GROUP w/ :even or :odd */ 
+
+<script>
+  $(document).ready(function() {
+    $(".target:even").addClass("animated shake");
+  });
+</script>
+
+/* TARGET THE ENTIRE BODY OF A DOC w/ ("body") */
+
+<script>
+  $(document).ready(function() {
+    $("body").addClass("animated hinge");
+  });
+</script>
+
+
 
 <!-- JQuery above this line. HTML/Bootstrap below. -->
 
